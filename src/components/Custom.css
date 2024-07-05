@@ -1,0 +1,35 @@
+
+
+.cabinet-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cabinet-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cabinet-icon {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .cabinet-item:hover .cabinet-icon {
+    transform: scale(1.1);
+  }
+  
+  .cabinet-text {
+    font-size: 16px;
+    color: #202020;
+  }
+  

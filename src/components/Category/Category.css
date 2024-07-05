@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F7F3;
+    color: #202020;
+  }
+  
+  /* Container styling */
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Section title styling */
+  .section-title {
+    font-size: 30px;
+    font-weight: medium;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #088269;
+    color: #F8F7F3;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #065f48;
+  }
+  
+  /* Product grid styling */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Product item styling */
+  .product-item {
+    background: #fff;
+    border: 1px solid #E5E2EE;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-item .details {
+    padding: 15px;
+  }
+  
+  .product-item .details h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .product-item .details p {
+    color: #7A7687;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item .details .price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Icons styling */
+  .icon-button {
+    color: #088269;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    color: #065f48;
+  }
+  
+  .icon-button.heart {
+    color: #ff6b6b;
+  }
+  
+  .icon-button.heart:hover {
+    color: #e55a5a;
+  }
+  

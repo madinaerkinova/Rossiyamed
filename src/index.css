@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8f7f3;
+  font-family: sans-serif;
+}
+
+select {
+  appearance: none;
+}
+
+a.active {
+  color: #07745e;
+}
+
+.Subscribe {
+  background-image: url("./assets/bgEmail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 200px;
+}
+
+@media (max-width: 600px) {
+  .Subscribe {
+    background-position: 50px;
+  }
+}
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrumbs .crumb::after {
+  content: ">";
+  margin-left: 10px;
+}
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
